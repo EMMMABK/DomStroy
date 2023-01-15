@@ -1,0 +1,370 @@
+@wxx01
++996703917639
+recatngle 641
+.dow_in > input{
+    opacity: 0;
+}
+
+width: 176px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    content: '+ Выбрать файл';
+recatngle 641
+
+
+CSS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #F6F6F9E5;
+    overflow-x: hidden;
+}
+.body_hidden {
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__container {
+    padding-top: 46px;
+}
+.first-line__header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 8px;
+}
+.logo-block {
+    display: flex;
+    flex-direction: column;
+}
+.header__name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+}
+.header__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.burger-menu {
+    display: none;
+}
+.sim__header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212864;
+}
+.order-block > button {
+    width: 200px;
+    height: 42px;
+    border: 1px solid #212864;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: none;
+    transition: 1s;
+}
+
+.order-block > button:hover {
+    transform: scale(1.1);
+}
+.order-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.header__menu__open {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.all-icons__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress-number-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+/* Second header container */
+.header__sec-container {
+    margin-top: 18px;
+    height: 57px;
+    background: #15193D;
+    padding-top: 18px
+}
+
+.header__menu {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.header__menu > li:hover {
+    transition: 1s;
+    transform: translate(20px);
+}
+
+/* Third header container */
+.header__third-container {
+    height: 45px;
+    background: #8C93D1;
+    padding-top: 13px;
+}
+
+HTML header
+<header class="header">
+        <div class="header__container container">
+            <div class="first-line__header">
+                <div class="logo-block">
+                    <h1 class="header__name">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h1>
+                    <div class="header__logo">
+                        <a href="index.html"><img src="icons/Logo.svg" alt="logo-company"></a>
+                    </div>
+                </div>
+                <div class="burger-menu">
+                    <img src="icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                </div>
+                <div class="adress-number-block">
+                    <h1 class="header__text">Пишите нам: <span style="color: darkblue;">domstroy-st@bk.ru</span></h1>
+                    <h1 class="header__text">Моск.обл. г.Ступино ул.Промышленная</h1>
+                    <h1 class="header__text">Пн-Сб 9:00-18:00, Вс - выходной</h1>
+                </div>
+                <div class="adress-number-block">
+                    <h1 class="sim__header">+7 (495) 142-07-25</h1>
+                    <h1 class="sim__header">+7 (977) 908-02-50</h1>
+                </div>
+                <div class="order-block">
+                    <button><a style="color: #212864;" target="_blank" href="https://web.telegram.org/k/#@House_Build_bot">Заказать
+                        звонок</a></button>
+                    <div class="all-icons__header">
+                        <a target="_blank" href="https://www.youtube.com/@bobertv"><img src="icons/youtube%201.svg"
+                                                                                        alt="YouTube icon"></a>
+                        <a target="_blank" href="https://www.instagram.com/bober.ru/"><img src="icons/instagram%201.svg"
+                                                                                           alt="Instagram icon"></a>
+                        <a target="_blank" href="https://vk.com/bobertk"><img src="icons/vk%201.svg" alt="VK icon"></a>
+                        <a target="_blank" href="https://web.whatsapp.com/"><img src="icons/whatsapp%201.svg"
+                                                                                 alt="WhatsApp icon"></a>
+                        <a target="_blank" href="https://web.telegram.org/k/#@House_Build_bot"><img
+                                src="icons/telegram%201.svg" alt="Telegram icon"></a>
+                    </div>
+                </div>
+                <button class="header__menu__open">
+                    <img src="icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="header__sec-container">
+            <ul class="header__menu container">
+                <li><a href="index.html" style="color: #FFF">Главная</a></li>
+                <li><a href="customer.html" style="color: #FFF">Заказчику</a></li>
+                <li><a href="delivery.html" style="color: #FFF">Доставка и сборка</a></li>
+                <li><a href="jobs.html" style="color: #FFF">Наши работы</a></li>
+                <li><a href="contacts.html" style="color: rgb(77, 77, 7);;">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="header__third-container ">
+            <ul class="header__menu container">
+                <li><a href="house.html" style="color: #FFF;">Каталог домов</a></li>
+                <li><a href="change_house.html" style="color: #FFF;">Каталог бытовок</a></li>
+                <li><a href="alcove.html" style="color: #FFF;">Каталог беседок</a></li>
+                <li><a href="bath.html" style="color: #FFF;">Каталог бань</a></li>
+            </ul>
+        </div>
+        <div class="mobile-header container">
+            <div class="mobile__header-head">
+                <div class="mobile__logo-block">
+                    <h1 class="header__name">СТРОИТЕЛЬНАЯ КОМПАНИЯ</h1>
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="icons/Logo.svg" alt="logo-company"></a>
+                    </div>
+                </div>
+                <button class="mobile-header-close">
+                    <img src="icons/Group%20266.svg" alt="">
+                </button>
+            </div>
+            <div class="mobile__header_menu">
+                <a href="index.html" class="mobile__header_menu-item">Главная</a>
+                <a href="jobs.html" class="mobile__header_menu-item">Наши работы</a>
+                <a href="customer.html" class="mobile__header_menu-item">Заказчику</a>
+                <a href="delivery.html" class="mobile__header_menu-item">Доставка</a>
+            </div>
+            <div class="mobile__header_about">
+                <p class="mobile__header_about-item">Пишите нам: domstroy-st@bk.ru</p>
+                <p class="mobile__header_about-item">Моск.обл. г.Ступино ул.Промышленная </p>
+                <p class="mobile__header_about-item">Пн-Сб 9:00-18:00, Вс - выходной</p>
+                <a href="#" class="mobile__header_about-number">+7 (495) 142-07-25</a>
+                <a href="#" class="mobile__header_about-number">+7 (977) 908-02-50</a>
+                <div class="mobile__all-icons__header">
+                    <a target="_blank" href="https://www.youtube.com/@bobertv"><img src="icons/youtube%201.svg" alt="YouTube icon"></a>
+                    <a target="_blank" href="https://www.instagram.com/bober.ru/"><img src="icons/instagram%201.svg" alt="Instagram icon"></a>
+                    <a target="_blank" href="https://vk.com/bobertk"><img src="icons/vk%201.svg" alt="VK icon"></a>
+                    <a target="_blank" href="https://web.whatsapp.com/"><img src="icons/whatsapp%201.svg" alt="WhatsApp icon"></a>
+                    <a target="_blank" href="https://web.telegram.org/k/#@House_Build_bot"><img src="icons/telegram%201.svg" alt="Telegram icon"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+х
+
+
+                <div class="cards__container container">
+                    <div class="three__cards">
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p> м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                ₽
+                            </h1>
+                        </div>
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p>м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                 ₽
+                            </h1>
+                        </div>
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p> м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                 ₽
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="three__cards">
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p> м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                 ₽
+                            </h1>
+                        </div>
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p> м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                 ₽
+                            </h1>
+                        </div>
+                        <div class="card">
+                            <img class="card__image" src="" alt="">
+                            <h1 class="card__title"></h1>
+                            <div class="card__subtitle">
+                                <div class="lside">
+                                    <p>Размер:</p>
+                                    <p>Площадь:</p>
+                                    <p>Количество комнат:</p>
+                                </div>
+                                <div class="rside">
+                                    <p> м</p>
+                                    <p> м2</p>
+                                    <p> шт</p>
+                                </div>
+                            </div>
+                            <h1 class="price">
+                                 ₽
+                            </h1>
+                        </div>
+                    </div>
+                </div>

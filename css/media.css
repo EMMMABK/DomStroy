@@ -1,0 +1,54 @@
+@media (max-width: 991px) {
+
+
+}
+
+@media (max-width: 767px) {
+    .burger-menu, .adress-number-block, .adress-number-block, .order-block,
+    .header__sec-container, .header__third-container {
+        display: none;
+    }
+
+    .card-in-advantage {
+        width: 100%;
+    }
+
+    .advantage__cards {
+        flex-wrap: wrap;
+        row-gap: 14px;
+    }
+
+    .item__title {
+        width: 100%;
+    }
+
+    .item__subtitle {
+        width: 100%;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+
+    .column {
+        align-items: center;
+        row-gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 768px ) {
+    .header__menu__open {
+        display: none;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+}

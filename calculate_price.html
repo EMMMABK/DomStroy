@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1300, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculate_price.css">
+    <link rel="shortcut icon" href="icons/Logo.svg" type="image/x-icon">
+    <script src="js/index.js" defer></script>
+    <title>ДомСтрой</title>
+</head>
+<body>
+    <main class="wrapper">
+        <section class="wrapper__item">
+           <form class="calculate" action="index.html">
+                <div class="first-column__item">
+                    <h1 class="item__title">Рассчитать стоимость</h1>
+                    <div class="item__wish">
+                        <h1 class="title">Что желаете построить? *</h1>
+                        <select name="select-category" id="build" class="select__building" required>
+                            <option value="1">Дом</option>
+                            <option value="2">Бытовка</option>
+                            <option value="3">Беседка</option>
+                            <option value="4">Баня</option>
+                        </select>
+                    </div>
+                    <div class="item__size">
+                        <h1 class="title">
+                            Размер объекта*
+                        </h1>
+                        <h1><input type="number" min="1"> x <input type="number" min="1"> м </h1>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Название или код товара
+                        </h1>
+                        <input class="choice" type="text" placeholder="Введите название или код товара" required>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Фундамент *
+                        </h1>
+                        <select name="select-choice" id="choice" class="choice" required> 
+                            <option value="1">Есть</option>
+                            <option value="2">Нет</option>
+                        </select>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Утепление стен *
+                        </h1>
+                        <select name="select-heat" id="heat" class="choice" required>
+                            <option value="1">Без утепления</option>
+                            <option value="2">С утеплением</option>
+                        </select>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">Этажность *</h1>
+                        <input class="choice" type="number" placeholder="Количество этажей" max="10" min="1" required>
+                    </div>
+                </div>
+                <div class="first-column__item">
+                    <div class="item__all">
+                        <h1 class="title">
+                            Адрес строительства *
+                        </h1>
+                        <input class="choice" type="text" placeholder="Введите адрес строительства" required>
+                    </div>
+                    <div class="item__img">
+                        <h1 class="title">
+                            Если у Вас есть проект/чертеж, загрузите его
+                        </h1>
+                        <label for="file">
+                            <div class="dow_in">
+                                <p>+ Выбрать файл'</p>
+                                <input type="file">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Имя*
+                        </h1>
+                        <input class="choice" type="text" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Телефон*
+                        </h1>
+                        <input class="choice" type="tel" placeholder="+996 (900) 000-00-00" required>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Электронная почта
+                        </h1>
+                        <input class="choice" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="item__all">
+                        <h1 class="title">
+                            Оставить комментарий
+                        </h1>
+                        <input class="choice" type="text" placeholder="Введите комментарий" required>
+                    </div>
+                    <a href="index.html"><input type="submit" value="Отправить"></a>
+                </div>
+           </form>
+        </section>
+    </main>
+</body>
+</html>
