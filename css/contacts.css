@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #F6F6F9E5;
+    overflow-x: hidden;
+}
+.body_hidden {
+    overflow: hidden;
+}
+.header {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__container {
+    padding-top: 46px;
+}
+.first-line__header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 8px;
+}
+.logo-block {
+    display: flex;
+    flex-direction: column;
+}
+.header__name {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+}
+.header__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.burger-menu {
+    display: none;
+}
+.sim__header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212864;
+}
+.order-block > button {
+    width: 200px;
+    height: 42px;
+    border: 1px solid #212864;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background: none;
+    transition: 1s;
+}
+
+.order-block > button:hover {
+    transform: scale(1.1);
+}
+.order-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.header__menu__open {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.all-icons__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress-number-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+/* Second header container */
+.header__sec-container {
+    margin-top: 18px;
+    height: 57px;
+    background: #15193D;
+    padding-top: 18px
+}
+
+.header__menu {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.header__menu > li:hover {
+    transition: 1s;
+    transform: translate(20px);
+}
+
+/* Third header container */
+.header__third-container {
+    height: 45px;
+    background: #8C93D1;
+    padding-top: 13px;
+}
+
+/* 1st section */
+.item{
+    width: 100%;
+    background: url('../icons/Rectangle\ 695\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.item__container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 52px;
+}
+.left__side{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.pwd__p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.pwd{
+    padding-top: 32px;
+    display: flex;
+    column-gap: 12px;
+}
+.lside__title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    color: #000000;
+}
+.lside__subtitle{
+    width: 528px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.lside__button > a > button{
+    border: 1px solid #212864;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: none;
+    transition: 1s;
+}
+.lside__button > a > button:hover{
+    transform: scale(1.2);
+}
+.lside__button > h1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212864;
+}
+.lside__button{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.lside__info{
+    background: #536FA4;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 627px;
+    height: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+}
+.lside__info:hover{
+    transform: scale(1.2);
+}
+.info__title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.info__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.manager__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rside__title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.rside__adress{
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.rside__email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+.rside__social-media{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.rside__subtitle{
+    font-weight: 400;
+    width: 263px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.right__side{
+    background: #FFFFFF;
+    box-shadow: 8px 9px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 20px 20px;
+    width: 532px;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+    align-items: center;
+    transition: 1s;
+}
+.right__side:hover{
+    transform: translateY(20px);
+}
+/* footer */
+.footer{
+    width: 100%;
+    background: #22242E;
+}
+.footer__container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.item__column{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.subtitle__column{
+    padding-top: 11px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 118px;
+}
+.buttons-in-footer > button{
+    border: 1px solid #FFC239;
+    border-radius: 37px;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    background: none;
+    width: 250px;
+    height: 74px;
+    transition: 1s;
+}
+.buttons-in-footer > button:hover{
+    background: yellow;
+    transform: scale(1.2);
+}
+.title__calculator{
+    width: 205px
+}
+.buttons-in-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}

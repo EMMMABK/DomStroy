@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); 
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    list-style-type: none; 
+    outline: none; 
+    text-decoration: none; 
+    font-family: 'Inter', sans-serif;
+} 
+.item{
+    width: 100%;
+    background: url('../icons/Rectangle\ 641\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 82px;
+    padding-top: 99px;
+}
+.request__block{
+    width: 1045px;
+    height: 587px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 4px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 53px;
+    justify-content: center;
+    padding-left: 46px;
+    padding-right: 38px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.request__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #212864;
+}
+.title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.input > input{
+    width: 463px;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-left: 34px;
+}
+.input > textarea{
+    width: 463px;
+    height: 153px;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 18px;
+    padding-left: 34px;
+}
+.buttons > input{
+    cursor: pointer;
+    width: 248px;
+    height: 55px;
+    background: #353D83;
+    border-radius: 30px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 638px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.lside{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+}
+.rside{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+}
+.form__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
