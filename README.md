@@ -16,7 +16,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/domstroy.git
+      git clone https://github.com/EMMMABK/DomStroy.git
    ```
 
 2. **Navigate to the project folder**:
@@ -37,6 +37,20 @@
      python bot.py
      ```
 
+## Screenshots
+
+![dom](./assets/dom1.png)
+![dom](./assets/dom2.png)
+![dom](./assets/dom3.png)
+![dom](./assets/dom4.png)
+![dom](./assets/dom5.png)
+![dom](./assets/dom6.png)
+![dom](./assets/dom7.png)
+![dom](./assets/dom8.png)
+![dom](./assets/dom9.png)
+![dom](./assets/dom10.png)
+
+
 ## Usage
 
 - Navigate the website to browse and order building materials.
@@ -49,6 +63,3 @@ Feel free to contribute by submitting a pull request or opening an issue!
 ## License
 
 This project is licensed under the MIT License.
-```
-
-Let me know if you'd like to add anything specific!
